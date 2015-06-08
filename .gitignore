@@ -1,3 +1,9 @@
+#distutils shit
+MANIFEST
+setup.cfg
+setup.py
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

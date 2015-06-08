@@ -7,7 +7,7 @@ A small Python package to hide or show the terminal cursor.
 The code is almost entirely a copy of [James Spencer's](http://stackoverflow.com/u/1375885/)
  [answer on StackOverflow](http://stackoverflow.com/a/10455937/1096437).
 
-## Instalation
+## Installation
 The preferred way of installing `cursor` is via `pip`
 You can install `pip` via your package manager:
 

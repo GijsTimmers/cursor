@@ -9,7 +9,7 @@ The code is almost entirely a copy of [James Spencer's](http://stackoverflow.com
 
 ## Installation
 The preferred way of installing `cursor` is via `pip`.
-You can install `pip` via your package manager:
+You can install `pip` with your package manager:
 
 #### On Ubuntu:
     

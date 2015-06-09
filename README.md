@@ -8,19 +8,17 @@ The code is almost entirely a copy of [James Spencer's](http://stackoverflow.com
  [answer on StackOverflow](http://stackoverflow.com/a/10455937/1096437).
 
 ## Installation
-The preferred way of installing `cursor` is via `pip`
+The preferred way of installing `cursor` is via `pip`.
 You can install `pip` via your package manager:
 
-On Ubuntu:
+#### On Ubuntu:
     
     sudo apt-get install python-pip
+    sudo pip install cursor
 
-On Arch:
+#### On Arch:
     
     sudo pacman -S python2-pip
-    
-After installing `pip`, you can install `cursor` with the following command:
-
     sudo pip install cursor
 
 ## Usage
@@ -31,8 +29,5 @@ cursor.hide() ## Hides the cursor
 cursor.show() ## Shows the cursor
 ```
 
-Note that the cursor will stay hidden until you call `cursor.show()` -- even after
+Note that the cursor will stay hidden until you call `cursor.show()` — even after
 exiting your python script!
-
-```
-$ python

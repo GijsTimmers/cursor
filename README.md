@@ -21,7 +21,7 @@ You can install `pip` with your package manager:
 #### On Arch:
     
     sudo pacman -S python2-pip
-    sudo pip install cursor
+    sudo pip2 install cursor
 
 ## Usage
 

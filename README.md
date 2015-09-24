@@ -1,5 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/cursor.svg)]
-(https://pypi.python.org/pypi/cursor/1.0)
+(http://badge.fury.io/py/cursor)
 
 # cursor
 A small Python package to hide or show the terminal cursor.

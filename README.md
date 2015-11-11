@@ -2,7 +2,8 @@
 (http://badge.fury.io/py/cursor)
 
 # cursor
-A small Python package to hide or show the terminal cursor.
+A small Python package to hide or show the terminal cursor. The code is
+compatible with both Python 2 and Python 3.
 
 ![demonstration](http://i.imgur.com/2iXviMi.gif)
 
@@ -24,8 +25,8 @@ You can install `pip` with your package manager:
 
 #### On Arch:
     
-    sudo pacman -S python2-pip
-    sudo pip2 install cursor
+    sudo pacman -S python-pip
+    sudo pip install cursor
 
 ## Usage
 

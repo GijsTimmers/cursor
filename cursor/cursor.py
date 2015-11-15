@@ -20,7 +20,6 @@ import sys
 import os
 
 if os.name == 'nt':
-    import msvcrt
     import ctypes
 
     class _CursorInfo(ctypes.Structure):

@@ -37,6 +37,13 @@ You can install `pip` with your package manager:
 import cursor
 cursor.hide() ## Hides the cursor
 cursor.show() ## Shows the cursor
+
+with cursor.HiddenCursor() as hc:   ## Cursor will stay hidden
+    import time                     ## while code is being executed;
+    for a in range(1,100):          ## afterwards it will show up again
+        print(a)
+        time.sleep(0.05)
+    
 ```
 
 Note that the cursor will stay hidden until you call `cursor.show()` — 
@@ -45,3 +52,7 @@ even after exiting your python script!
 Because of that, `pip` will install two
 scripts, which can be run from the command line: `cursor_hide` and
 `cursor_show`.
+
+An alternative is using the `HiddenCursor()` class in conjunction with
+Python's `with` statement. This will make sure that the cursor is shown again
+after running your code, even if exceptions are raised.

@@ -1,3 +1,3 @@
-from .cursor import hide, show
+from .cursor import hide, show, HiddenCursor
 
-__all__ = ["hide", "show"]
+__all__ = ["hide", "show", "HiddenCursor"]

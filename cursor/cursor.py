@@ -47,3 +47,9 @@ def show():
     elif os.name == 'posix':
         sys.stdout.write("\033[?25h")
         sys.stdout.flush()
+        
+class HiddenCursor(object):
+    def __enter__(self):
+        hide()
+    def __exit__(self, type, value, traceback):
+        show()

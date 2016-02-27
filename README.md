@@ -38,7 +38,7 @@ import cursor
 cursor.hide() ## Hides the cursor
 cursor.show() ## Shows the cursor
 
-with cursor.HiddenCursor():	## Cursor will stay hidden
+with cursor.HiddenCursor():     ## Cursor will stay hidden
     import time                 ## while code is being executed;
     for a in range(1,100):      ## afterwards it will show up again
         print(a)

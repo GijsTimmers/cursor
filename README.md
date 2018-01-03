@@ -1,21 +1,18 @@
-[![PyPI version](https://badge.fury.io/py/cursor.svg)]
-(http://badge.fury.io/py/cursor)
+![PyPI version](https://badge.fury.io/py/cursor.svg)
 
-[![Code Health](https://landscape.io/github/GijsTimmers/cursor/master/landscape.svg?style=flat)]
-(https://landscape.io/github/GijsTimmers/cursor/master)
+![Code Health](https://landscape.io/github/GijsTimmers/cursor/master/landscape.svg?style=flat)
 
-# cursor
-A small Python package to hide or show the terminal cursor. The code is
-compatible with both Python 2 and Python 3.
+# cursor 
+A small Python package to hide or show the terminal cursor.
+Works on both Python 2 and Python 3.
 
 ![demonstration](http://i.imgur.com/2iXviMi.gif)
 
-## Credits
+## Disclaimer
 The code is almost entirely a copy of
-[James Spencer's]
-(http://stackoverflow.com/u/1375885/) 
-[answer on StackOverflow]
-(http://stackoverflow.com/a/10455937/1096437).
+[James Spencer's](http://stackoverflow.com/u/1375885/) 
+[answer on StackOverflow](http://stackoverflow.com/a/10455937/1096437).
+
 
 ## Installation
 The preferred way of installing `cursor` is via `pip`.
@@ -49,10 +46,19 @@ with cursor.HiddenCursor():     ## Cursor will stay hidden
 Note that the cursor will stay hidden until you call `cursor.show()` — 
 even after exiting your python script!
 
-Because of that, `pip` will install two
-scripts, which can be run from the command line: `cursor_hide` and
-`cursor_show`.
+Because of that, `pip` will install two scripts, which can be run
+from the command line: `cursor_hide` and `cursor_show`.
 
-An alternative is using the `HiddenCursor()` class in conjunction with
-Python's `with` statement. This will make sure that the cursor is shown again
-after running your code, even if exceptions are raised.
+An alternative is using the `HiddenCursor()` class in conjunction
+with Python's `with` statement. This will make sure that the cursor
+is shown again after running your code, even if exceptions are
+raised.
+
+## Contributors
+[Manraj Singh](https://github.com/ManrajGrover): allowed setting
+a customisable stream 
+
+## Projects using `cursor`
+[`halo`](https://github.com/ManrajGrover/halo): beautiful 
+terminal spinners in Python
+

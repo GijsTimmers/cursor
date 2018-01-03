@@ -26,7 +26,7 @@ if os.name == 'nt':
         _fields_ = [("size", ctypes.c_int),
                     ("visible", ctypes.c_byte)]
 
-def hide():
+def hide(stream=sys.stdout):
     if os.name == 'nt':
         ci = _CursorInfo()
         handle = ctypes.windll.kernel32.GetStdHandle(-11)
@@ -34,10 +34,10 @@ def hide():
         ci.visible = False
         ctypes.windll.kernel32.SetConsoleCursorInfo(handle, ctypes.byref(ci))
     elif os.name == 'posix':
-        sys.stdout.write("\033[?25l")
-        sys.stdout.flush()
+        stream.write("\033[?25l")
+        stream.flush()
 
-def show():
+def show(stream=sys.stdout):
     if os.name == 'nt':
         ci = _CursorInfo()
         handle = ctypes.windll.kernel32.GetStdHandle(-11)
@@ -45,11 +45,13 @@ def show():
         ci.visible = True
         ctypes.windll.kernel32.SetConsoleCursorInfo(handle, ctypes.byref(ci))
     elif os.name == 'posix':
-        sys.stdout.write("\033[?25h")
-        sys.stdout.flush()
+        stream.write("\033[?25h")
+        stream.flush()
         
 class HiddenCursor(object):
+    def __init__(self, stream=sys.stdout):
+        self._stream = stream
     def __enter__(self):
-        hide()
+        hide(stream=self._stream)
     def __exit__(self, type, value, traceback):
-        show()
+        show(stream=self._stream)

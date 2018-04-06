@@ -4,7 +4,7 @@
 
 # cursor 
 A small Python package to hide or show the terminal cursor.
-Works on both Python 2 and Python 3.
+Works on Linux and Windows, on both Python 2 and Python 3.
 
 ![demonstration](http://i.imgur.com/2iXviMi.gif)
 

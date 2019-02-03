@@ -64,3 +64,5 @@ a customisable stream
 [`halo`](https://github.com/ManrajGrover/halo): beautiful 
 terminal spinners in Python
 
+[`pipenv`](https://github.com/pypa/pipenv): a tool that aims to bring the best of all packaging worlds to the Python world
+

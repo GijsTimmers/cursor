@@ -7,14 +7,8 @@
 ## Based on James Spencer's answer on StackOverflow: 
 ## http://stackoverflow.com/questions/5174810/how-to-turn-off-blinking-cursor-in-command-window
 
-## Licence:         CC-BY-SA-2.5
-##                  http://creativecommons.org/licenses/by-sa/2.5/
-
-## This work is licensed under the Creative Commons
-## Attribution-ShareAlike 2.5 International License. To  view a copy of
-## this license, visit http://creativecommons.org/licenses/by-sa/2.5/ or
-## send a letter to Creative Commons, PO Box 1866, Mountain View,
-## CA 94042, USA.
+## Licence:         GPL v3
+##                  https://www.gnu.org/licenses/gpl-3.0.html 
 
 import sys
 import os

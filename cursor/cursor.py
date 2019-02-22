@@ -1,14 +1,13 @@
-#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-## Author:          James Spencer: http://stackoverflow.com/users/1375885/james-spencer
-## Packager:        Gijs TImmers:  https://github.com/GijsTimmers
+## Author:   James Spencer: http://stackoverflow.com/users/1375885/james-spencer
+## Packager: Gijs Timmers:  https://github.com/GijsTimmers
 
 ## Based on James Spencer's answer on StackOverflow: 
-## http://stackoverflow.com/questions/5174810/how-to-turn-off-blinking-cursor-in-command-window
+## http://stackoverflow.com/q/5174810
 
-## Licence:         GPL v3
-##                  https://www.gnu.org/licenses/gpl-3.0.html 
+## Licence:  GPL v3
+## https://www.gnu.org/licenses/gpl-3.0.html 
 
 import sys
 import os

@@ -23,12 +23,14 @@ You can install `pip` with your package manager:
 #### On Ubuntu:
     
     sudo apt-get install python-pip
-    sudo pip install cursor
+    pip install --user cursor
 
 #### On Arch:
     
-    sudo pacman -S python-pip
-    sudo pip install cursor
+    git clone https://aur.archlinux.org/python-cursor.git
+    cd python-cursor
+    makepkg -si
+    sudo pacman -U python-cursor-*.pkg.tar.xz
 
 ## Usage
 
@@ -59,6 +61,11 @@ raised.
 ## Contributors
 [Manraj Singh](https://github.com/ManrajGrover): allowed setting
 a customisable stream 
+
+[Alexander Seiler](https://github.com/goggle): packaging for Arch
+
+Patrik Kopkan: packaging for Fedora
+
 
 ## Projects using `cursor`
 [`halo`](https://github.com/ManrajGrover/halo): beautiful 

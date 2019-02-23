@@ -30,7 +30,6 @@ You can install `pip` with your package manager:
     git clone https://aur.archlinux.org/python-cursor.git
     cd python-cursor
     makepkg -si
-    sudo pacman -U python-cursor-*.pkg.tar.xz
 
 ## Usage
 

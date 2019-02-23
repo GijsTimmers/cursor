@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
   name = "cursor",
   packages = ["cursor"],
-  version = "1.3.3",
+  version = "1.3.4",
   description = "A small Python package to hide or show the terminal cursor",
   author = "Gijs Timmers",
   author_email = "timmers.gijs@gmail.com",

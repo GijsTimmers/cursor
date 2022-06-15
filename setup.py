@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
   name = "cursor",
   packages = ["cursor"],
-  version = "1.3.4",
+  version = "1.3.5",
   description = "A small Python package to hide or show the terminal cursor",
   long_description=long_description,
   long_description_content_type="text/markdown",

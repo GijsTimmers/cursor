@@ -2,8 +2,6 @@
 
 ![PyPI version](https://badge.fury.io/py/cursor.svg)
 
-![Code Health](https://landscape.io/github/GijsTimmers/cursor/master/landscape.svg?style=flat)
-
 # cursor 
 A small Python package to hide or show the terminal cursor.
 Works on Linux and Windows, on both Python 2 and Python 3.

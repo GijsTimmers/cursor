@@ -1,6 +1,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-![PyPI version](https://badge.fury.io/py/cursor.svg)
+[![PyPI version](https://badge.fury.io/py/cursor.svg)](https://pypi.org/project/cursor)
 
 # cursor 
 A small Python package to hide or show the terminal cursor.

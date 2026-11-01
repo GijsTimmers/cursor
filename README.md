@@ -83,3 +83,5 @@ a customisable stream
 [Alexander Seiler](https://github.com/goggle): packaging for Arch
 
 Patrik Kopkan: packaging for Fedora
+
+[psfazila02-hub](https://github.com/psfazila02-hub): keeping `setup.py` working
